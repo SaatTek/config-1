@@ -1,5 +1,11 @@
+spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
 server:
-  port: 8002
+  port: 8001
 eureka:
   client:
     serviceUrl:
